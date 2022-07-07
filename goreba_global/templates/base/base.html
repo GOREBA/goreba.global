@@ -14,7 +14,9 @@
 
     <body>
         {% include 'base/header.html' %}
-        <h1>Hey Welcome to Goreba</h1>
+
+        {% block main_content %} {% endblock %}
+
         {% include 'base/footer.html' %}
         {% include 'base/scripts.html' %}
     </body>

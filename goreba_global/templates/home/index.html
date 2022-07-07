@@ -1,1 +1,9 @@
-{% extends 'home/base.html' %}
+{% extends 'base/base.html' %}
+{% load static %}
+{% block main_content %}
+
+    {% include 'home/modules/sidebar.html' %}
+    {% include 'home/modules/slider.html' %}
+    {% include 'home/contents.html' %}
+
+{% endblock %}
