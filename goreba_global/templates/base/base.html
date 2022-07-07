@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Hem Raj Regmi">
+
+        <title>{% block head_title %}{% endblock %}</title>
+        {% include 'base/styles.html' %}
+    </head>
+
+    <body>
+        {% include 'base/header.html' %}
+        <h1>Hey Welcome to Goreba</h1>
+        {% include 'base/footer.html' %}
+        {% include 'base/scripts.html' %}
+    </body>
+</html>
