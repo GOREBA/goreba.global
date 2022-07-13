@@ -36,6 +36,14 @@
 			max-width: 1200px;
 			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 			@include transition();
+
+			.logo_h > img{
+			    height: 55px;
+			    width: auto;
+			    @media (max-width: 991px) {
+			        height: 45px
+			    }
+			}
 		}
 	}
 	.navbar {

@@ -1562,7 +1562,20 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-/* line 41, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 40, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+.header_area .main_menu .main_box .logo_h > img {
+  height: 55px;
+  width: auto;
+}
+
+@media (max-width: 991px) {
+  /* line 40, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  .header_area .main_menu .main_box .logo_h > img {
+    height: 45px;
+  }
+}
+
+/* line 49, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar {
   background: #fff;
   padding: 0px;
@@ -1571,17 +1584,17 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  /* line 46, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 54, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .navbar-collapse {
     margin-top: 30px;
   }
-  /* line 49, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 57, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .navbar-collapse .nav-item {
     padding: 10px;
   }
 }
 
-/* line 55, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 63, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .navbar-toggler .icon-bar {
   color: #000;
   height: 2px;
@@ -1592,12 +1605,12 @@ h6 {
   margin: 5px;
 }
 
-/* line 66, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 74, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item {
   margin-right: 45px;
 }
 
-/* line 68, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 76, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item .nav-link {
   text-transform: uppercase;
   padding: 0px;
@@ -1608,28 +1621,28 @@ h6 {
 }
 
 @media (min-width: 991px) {
-  /* line 68, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 76, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav .nav-item .nav-link {
     padding: 10px 0;
   }
 }
 
-/* line 78, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 86, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item .nav-link:after {
   display: none;
 }
 
-/* line 84, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 92, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
   color: #ffba00;
 }
 
-/* line 88, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 96, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu {
   position: relative;
 }
 
-/* line 90, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 98, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul {
   border: none;
   padding: 0px;
@@ -1640,7 +1653,7 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  /* line 90, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 98, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
     top: 140%;
@@ -1657,7 +1670,7 @@ h6 {
   }
 }
 
-/* line 108, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 116, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul:before {
   content: "";
   width: 0;
@@ -1676,7 +1689,7 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-/* line 122, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 130, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item {
   display: block;
   float: none;
@@ -1689,17 +1702,17 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-/* line 129, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 137, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item.active {
   background: #ffba00;
 }
 
-/* line 131, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 139, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item.active .nav-link {
   color: #fff;
 }
 
-/* line 135, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 143, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
   line-height: 45px;
   padding: 0px 30px;
@@ -1711,75 +1724,75 @@ h6 {
   margin-right: 0px;
 }
 
-/* line 142, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 150, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
   border-bottom: none;
 }
 
-/* line 146, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 154, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: #ffba00;
   color: #fff;
 }
 
 @media (min-width: 992px) {
-  /* line 154, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 162, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav .nav-item.submenu:hover ul {
     visibility: visible;
     opacity: 1;
   }
 }
 
-/* line 159, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 167, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item.submenu:hover ul .nav-item {
   margin-top: 0px;
 }
 
-/* line 165, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 173, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav .nav-item:last-child {
   margin-right: 0px;
 }
 
 @media (min-width: 991px) {
-  /* line 170, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 178, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav.navbar-nav.navbar-right {
     display: -webkit-inline-box;
   }
 }
 
-/* line 174, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 182, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav.navbar-nav.navbar-right li {
   margin-left: 25px;
   margin-right: 0px;
 }
 
 @media (max-width: 991px) {
-  /* line 174, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 182, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav.navbar-nav.navbar-right li {
     margin-left: 0px;
   }
 }
 
-/* line 180, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 188, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
   margin-left: 35px;
 }
 
 @media (max-width: 991px) {
-  /* line 180, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 188, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
     display: none;
   }
 }
 
-/* line 186, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 194, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav.navbar-nav.navbar-right li span {
   color: #222222;
   line-height: 80px;
   font-weight: 500;
 }
 
-/* line 192, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 200, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 .header_area .navbar .nav.navbar-nav.navbar-right .search {
   background: transparent;
   border: 0;
@@ -1787,7 +1800,7 @@ h6 {
   padding: 0;
 }
 
-/* line 202, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 210, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 #search_input_box {
   position: fixed;
   left: 50%;
@@ -1803,7 +1816,7 @@ h6 {
   padding: 5px 20px;
 }
 
-/* line 213, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 221, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 #search_input_box .form-control {
   background: transparent;
   border: 0;
@@ -1813,7 +1826,7 @@ h6 {
   padding: 0;
 }
 
-/* line 220, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 228, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 #search_input_box .form-control:focus {
   box-shadow: none;
   outline: none;
@@ -1843,7 +1856,7 @@ h6 {
   font-size: 14px;
 }
 
-/* line 231, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 239, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 #search_input_box .btn {
   width: 0;
   height: 0;
@@ -1851,7 +1864,7 @@ h6 {
   border: 0;
 }
 
-/* line 237, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+/* line 245, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
 #search_input_box .lnr-cross {
   color: #fff;
   font-weight: 600;
@@ -1860,7 +1873,7 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  /* line 245, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
+  /* line 253, ../../../../../PycharmProjects/goreba.global/goreba_global/static_files/scss/theme/_header.scss */
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding: 0px 15px;
