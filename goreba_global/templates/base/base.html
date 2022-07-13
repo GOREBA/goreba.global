@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
     {% load static %}
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="{% static 'img/fav.png' %}">
+        <!-- Author Meta -->
         <meta name="author" content="Hem Raj Regmi">
-
+        <!-- Meta Description -->
+        <meta name="description" content="">
+        <!-- Meta Keyword -->
+        <meta name="keywords" content="">
+        <!-- meta character set -->
+        <meta charset="UTF-8">
+        <!-- Site Title -->
         <title>{% block head_title %}{% endblock %}</title>
+
         {% include 'base/styles.html' %}
     </head>
 

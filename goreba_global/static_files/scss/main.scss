@@ -1,14 +1,18 @@
-// Import bases
-// @import 'base/_variables.scss';
-// @import 'base/_parameters.scss';
 
-// Import components
+// including variables and mixins
+@import "theme/_variables.scss";
+@import "theme/_mixins.scss";
+@import "theme/_predefine.scss";
+@import "theme/_reset.scss";
 
-// Import layouts
 
-// Import modules
-// @import 'modules/_buttons.scss';
-// @import "modules/_forms.scss";
-
-// Import pages
-@import 'pages/_legacy_css.scss';
+// Custom Scss 
+@import "theme/_elements.scss";
+@import "theme/_header.scss";
+@import "theme/_banner.scss";
+@import "theme/_home.scss";
+@import "theme/_common.scss";
+@import "theme/_product.scss";
+@import "theme/_blog.scss";
+@import "theme/_contact.scss";
+@import "theme/_footer.scss";
