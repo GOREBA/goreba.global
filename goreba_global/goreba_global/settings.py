@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     # Custom apps
     'home.apps.HomeConfig',
+    'products.apps.ProductsConfig',
 
     # Third party apps
     'ckeditor',
