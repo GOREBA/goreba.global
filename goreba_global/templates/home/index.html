@@ -1,5 +1,8 @@
 {% extends 'base/base.html' %}
 {% load static %}
+
+{% block title %} {{ setting.store_name }} - {{ setting.store_title }} {% endblock %}
+
 {% block main_content %}
 
     {% include 'home/modules/banner.html' %}
