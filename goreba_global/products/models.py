@@ -1,3 +1,4 @@
+from autoslug import AutoSlugField
 from ckeditor.fields import RichTextField
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
@@ -17,7 +18,7 @@ class Category(MPTTModel):
     )
     parent = TreeForeignKey('self', blank=True, null=True, related_name='children', on_delete=models.CASCADE)
     title = models.CharField(max_length=50)
-    slug = models.SlugField(null=False, unique=True)
+    slug = AutoSlugField(populate_from='title')
 
     keywords = models.CharField(max_length=255)
     description = RichTextField(blank=True)
@@ -49,14 +50,14 @@ class Product(models.Model):
     )
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     title = models.CharField(max_length=150)
-    slug = models.SlugField(null=False, unique=True)
+    slug = AutoSlugField(populate_from='title')
     brand = models.ForeignKey(Brand, blank=True, on_delete=models.CASCADE)
 
     keywords = models.CharField(max_length=255)
     description = RichTextField(blank=True)
     variants = models.CharField(max_length=10, choices=VARIANTS, default='None')
     detail = RichTextField(blank=True)
-    image_main = models.ImageField(upload_to='images/product', null=False)
+    image_main = models.ImageField(upload_to='images/product', null=True)
     price = models.DecimalField(max_digits=12, decimal_places=2, default=0)
     discounted_price = models.DecimalField(max_digits=12, decimal_places=2, default=0)
     quantity = models.IntegerField(default=0)
